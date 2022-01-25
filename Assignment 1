@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class estimator{
+  public static void main(String[] args){
+     Scanner sc = new Scanner(System.in);
+    
+       int localfuelprice/gallon;
+       int estimatedMPG;
+       int estimatedkWh;
+       int UtilitykWhrate;
+       int totalmiles;
+
+       System.out.println ("Welcome to EV savings estimator");
+       System.out.println ("Please enter the following information:");
+
+[(total miles driven /MPG)x gas price per gallon] - 
+[(total miles driven x EV kWh consumption per miles) x utility rate per kWh]
+
+       System.out.print("Local fuel price/gallon: $");
+       localfuelprice/gallon = input.nextInt();
+       System.out.print("Estimated MPG of gas vehicle:");
+       estimatedMPG = input.nextInt();
+       System.out.print("Estimated kWh per mile for EV:");
+       estimatedkWh = input.nextInt();
+       System.out.print("Utility kWh rate: $");
+       UtilitykWhrate = input.nextInt();
+       System.out.print("Total miles are driven per year:");
+       totalmiles = input.nextInt();
