@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class estimator{
+public double estimator{
   public static void main(String[] args){
      Scanner sc = new Scanner(System.in);
     
-       int localfuelprice/gallon;
-       int estimatedMPG;
-       int estimatedkWh;
-       int UtilitykWhrate;
-       int totalmiles;
+       double localfuelprice/gallon;
+       double estimatedMPG;
+       double estimatedkWh;
+       double UtilitykWhrate;
+       double totalmiles;
 
        System.out.println ("Welcome to EV savings estimator");
        System.out.println ("Please enter the following information:");
