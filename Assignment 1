@@ -1,31 +1,29 @@
 import java.util.Scanner;
 
-public double estimator{
+public class estimator{
   public static void main(String[] args){
-     Scanner sc = new Scanner(System.in);
-    
-       double localfuelprice/gallon;
-       double estimatedMPG;
-       double estimatedkWh;
-       double UtilitykWhrate;
-       double totalmiles;
 
-       System.out.println ("Welcome to EV savings estimator");
+       System.out.println ("-----Welcome to EV savings estimator-----");
        System.out.println ("Please enter the following information:");
-
-[(total miles driven /MPG)x gas price per gallon] - 
-[(total miles driven x EV kWh consumption per miles) x utility rate per kWh]
-
+       double gallonprice.mpg,estimated,utility,totalmiles,savings;
+       Scanner sc = new Scanner(System.in);
        System.out.print("Local fuel price/gallon: $");
-       double localfuelprice/gallon =in.nextDouble();
-       System.out.print("Estimated MPG of gas vehicle:");
-       double estimatedMPG = in.nextDouble();
+       gallonprice =sc.nextDouble();
+       System.out.print("Estimated mpg of gas vehicle:");
+       mpg = sc.nextDouble();
        System.out.print("Estimated kWh per mile for EV:");
-       double estimatedkWh = in.nextDouble();
-       System.out.print("Utility kWh rate: $");
-       double UtilitykWhrate =in.nextDouble();
+       estimated = sc.nextDouble();
+       System.out.print("utility kWh rate: $");
+       utility = sc.nextDouble();
        System.out.print("Total miles are driven per year:");
-       double totalmiles = in.nextDouble();
+       totalmiles = sc.nextDouble();
+       savings=(totalmiles/mpg)*gallonprice-
+       totalmiles*estimated*utility;
+       
+       
+       System.out.println("Based on data provided you save $" +savings+"per year by driving EV");
+
+      
 
 
 }
