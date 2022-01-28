@@ -17,12 +17,16 @@ public double estimator{
 [(total miles driven x EV kWh consumption per miles) x utility rate per kWh]
 
        System.out.print("Local fuel price/gallon: $");
-       localfuelprice/gallon = input.nextInt();
+       double localfuelprice/gallon =in.nextDouble();
        System.out.print("Estimated MPG of gas vehicle:");
-       estimatedMPG = input.nextInt();
+       double estimatedMPG = in.nextDouble();
        System.out.print("Estimated kWh per mile for EV:");
-       estimatedkWh = input.nextInt();
+       double estimatedkWh = in.nextDouble();
        System.out.print("Utility kWh rate: $");
-       UtilitykWhrate = input.nextInt();
+       double UtilitykWhrate =in.nextDouble();
        System.out.print("Total miles are driven per year:");
-       totalmiles = input.nextInt();
+       double totalmiles = in.nextDouble();
+
+
+}
+}
